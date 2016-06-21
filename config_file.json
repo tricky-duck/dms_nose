@@ -1,0 +1,11 @@
+{
+  "web": {
+    "baseUrl": "http://192.168.139.152/",
+    "username": "admin",
+    "password": "1"
+  },
+
+  "other": {
+    "browser": "firefox"
+  }
+}

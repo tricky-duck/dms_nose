@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_create_project.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_create_project.py">
+      <file leaf-file-name="test_create_mheg_project.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_create_mheg_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.408" vertical-offset="204" max-vertical-offset="1037">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1632">
+              <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
               <folding>
                 <element signature="e#30#81#0" expanded="true" />
               </folding>
@@ -36,36 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_delete_project.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_delete_project.py">
+      <file leaf-file-name="test_create_stingray_project.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_create_stingray_project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6304348" vertical-offset="237" max-vertical-offset="1003">
+              <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
               <folding>
-                <element signature="e#30#48#0" expanded="true" />
+                <element signature="e#30#81#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_edit_project.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_edit_project.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding>
-                <element signature="e#30#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -73,22 +51,10 @@
       <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="1955">
-              <caret line="69" column="75" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1839" max-vertical-offset="2312">
+              <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
               <folding>
                 <element signature="e#29#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="697">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#788#839#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +67,7 @@
               <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <element signature="e#30#52#0" expanded="true" />
+                <marker date="1466495104714" expanded="true" signature="875:1001" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -122,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/model/project.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -160,7 +127,9 @@
         <option value="$PROJECT_DIR$/test/test_delete_project.py" />
         <option value="$PROJECT_DIR$/test/test_create_project.py" />
         <option value="$PROJECT_DIR$/test/test_edit_project.py" />
+        <option value="$PROJECT_DIR$/test/test_create_stingray_project.py" />
         <option value="$PROJECT_DIR$/fixture/project.py" />
+        <option value="$PROJECT_DIR$/test/test_create_mheg_project.py" />
       </list>
     </option>
   </component>
@@ -273,79 +242,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\copy\trickyDuck\dms_nose\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\copy\trickyDuck\dms_nose" />
       <recent name="D:\copy\trickyDuck\dms_nose\dms_nose\model" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetest test_edit_mheg_project_name">
-    <configuration default="false" name="test_create_project" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dms_nose" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_create_project.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests in dms_nose" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="D:\copy\trickyDuck\dms_nose\env\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dms_nose" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dms_nose/test/test_create_project.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="test_create_mheg_project_positive" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetest test_delete_project" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="D:\copy\trickyDuck\dms_nose\dms_nose\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dms_nose" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_delete_project.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="test_delete_project" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Nosetest test_create_mheg_project_negative">
     <configuration default="false" name="Nosetest test_edit_mheg_project_name" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,6 +291,75 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_edit_project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest test_create_stingray_project_positive" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="D:\copy\trickyDuck\dms_nose\dms_nose\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dms_nose" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_create_stingray_project.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="test_create_stingray_project_positive" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest test_create_mheg_project_positive" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="D:\copy\trickyDuck\dms_nose\dms_nose\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dms_nose" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_create_mheg_project.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="test_create_mheg_project_positive" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest test_create_mheg_project_negative" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="D:\copy\trickyDuck\dms_nose\dms_nose\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dms_nose" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_create_mheg_project.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="test_create_mheg_project_negative" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
+      <option name="TEST_TYPE" value="TEST_FUNCTION" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -513,19 +487,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_create_project" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in dms_nose" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest test_delete_project" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest test_edit_mheg_project_name" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_edit_project" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest test_edit_mheg_project_name" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_edit_project" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_stingray_project_positive" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_mheg_project_positive" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_mheg_project_negative" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest test_edit_mheg_project_name" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test_edit_project" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest test_delete_project" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in dms_nose" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_create_project" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_mheg_project_negative" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_stingray_project_positive" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_mheg_project_positive" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest test_edit_mheg_project_name" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test_edit_project" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +517,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -552,7 +526,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29405406" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45837837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25184405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,7 +564,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_create_project.py">
+    <entry file="file://$PROJECT_DIR$/test/test_create_mheg_project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -624,6 +598,7 @@
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
             <element signature="e#30#52#0" expanded="true" />
+            <marker date="1466495104714" expanded="true" signature="875:1001" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -656,7 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_create_project.py">
+    <entry file="file://$PROJECT_DIR$/test/test_create_mheg_project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="470" max-vertical-offset="952">
           <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
@@ -690,6 +665,7 @@
           <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
           <folding>
             <element signature="e#30#52#0" expanded="true" />
+            <marker date="1466495104714" expanded="true" signature="875:1001" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -722,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_create_project.py">
+    <entry file="file://$PROJECT_DIR$/test/test_create_mheg_project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="901">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
@@ -738,6 +714,7 @@
           <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
           <folding>
             <element signature="e#30#52#0" expanded="true" />
+            <marker date="1466495104714" expanded="true" signature="875:1001" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -752,7 +729,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_create_project.py">
+    <entry file="file://$PROJECT_DIR$/test/test_create_mheg_project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -855,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
@@ -877,15 +846,8 @@
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <element signature="e#30#52#0" expanded="true" />
+            <marker date="1466495104714" expanded="true" signature="875:1001" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +876,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="143" max-vertical-offset="697">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#788#839#0" expanded="true" />
+            <element signature="e#788#839#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -924,25 +886,52 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding>
-            <element signature="e#30#48#0" expanded="true" />
+            <marker date="1466499719584" expanded="true" signature="-1:-1" placeholder="import ..." />
+            <marker date="1466499719584" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="1955">
-          <caret line="69" column="75" selection-start-line="69" selection-start-column="75" selection-end-line="69" selection-end-column="75" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1839" max-vertical-offset="2312">
+          <caret line="125" column="8" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
           <folding>
             <element signature="e#29#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_create_project.py">
+    <entry file="file://$PROJECT_DIR$/test/test_create_mheg_project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.408" vertical-offset="204" max-vertical-offset="1037">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1632">
+          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+          <folding>
+            <element signature="e#30#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_create_stingray_project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6304348" vertical-offset="237" max-vertical-offset="1003">
+          <caret line="31" column="75" selection-start-line="31" selection-start-column="75" selection-end-line="31" selection-end-column="75" />
           <folding>
             <element signature="e#30#81#0" expanded="true" />
           </folding>

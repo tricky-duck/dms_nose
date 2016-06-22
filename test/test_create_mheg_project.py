@@ -14,12 +14,14 @@ def setup():
     (param(Project(branchName="branchname7"))),
     (param(Project(branchName="branchname8"))),
                 ])
+
 def test_create_mheg_project_positive(mheg_positive):
     old_mheg_projects_list = app.project.get_mheg_projects_list()
-    time.sleep(0.5)     #необходимая задержка при списке тестовых данных
+    time.sleep(0.5)     #необходимая задержка при наборе тестовых данных
     app.project.button_create()
     app.project.mheg_parameters(mheg_positive)
-    app.project.submit_project_creation()
+    app.project.button_submit_project_creation()
+    app.alert.alert_project_saved()
     while not len(old_mheg_projects_list) + 1 == app.project.count_mheg_projects():
         pass
     new_mheg_projects_list = app.project.get_mheg_projects_list()
@@ -37,31 +39,43 @@ def test_create_mheg_project_negative(mheg_negative_empty):
     time.sleep(0.5)
     app.project.button_create()
     app.project.mheg_parameters(mheg_negative_empty)
-    app.project.submit_project_creation()
-    app.project.alert_specify_name()
-    app.project.cancel_project_creation()
+    app.project.button_submit_project_creation()
+    app.alert.alert_specify_name()
+    app.project.button_cancel_project_creation()
     new_mheg_projects_list = app.project.get_mheg_projects_list()
     assert sorted(old_mheg_projects_list, key =(lambda x: x.branchName)) == sorted(new_mheg_projects_list,key = (lambda x: x.branchName))
 
 
 @parameterized([
     (param(Project(branchName="duplicate name"))),
-    (param(Project(branchName="duplicate name"))),
                 ])
 def test_create_mheg_project_negative(mheg_negative_exist):
     old_mheg_projects_list = app.project.get_mheg_projects_list()
-    time.sleep(0.5)
+    time.sleep(0.5)     #необходимая задержка при списке тестовых данных
     app.project.button_create()
     app.project.mheg_parameters(mheg_negative_exist)
-    app.project.submit_project_creation()
-    app.project.alert_name_already_exist()
-    app.project.cancel_project_creation()
+    app.project.button_submit_project_creation()
+    app.alert.alert_project_saved()
+    while not len(old_mheg_projects_list) + 1 == app.project.count_mheg_projects():
+        pass
+    new_mheg_projects_list = app.project.get_mheg_projects_list()
+    old_mheg_projects_list.append(mheg_negative_exist)
+    assert sorted(old_mheg_projects_list, key =(lambda x: x.branchName)) == sorted(new_mheg_projects_list,key = (lambda x: x.branchName))
+    old_mheg_projects_list = app.project.get_mheg_projects_list()
+    time.sleep(0.5)     #необходимая задержка при списке тестовых данных
+    app.project.button_create()
+    app.project.mheg_parameters(mheg_negative_exist)
+    app.project.button_submit_project_creation()
+    app.alert.alert_name_already_exist()
+    app.project.button_cancel_project_creation()
+    assert len(old_mheg_projects_list) == app.project.count_mheg_projects()
     new_mheg_projects_list = app.project.get_mheg_projects_list()
     assert sorted(old_mheg_projects_list, key =(lambda x: x.branchName)) == sorted(new_mheg_projects_list,key = (lambda x: x.branchName))
 
 
 # @parameterized([
-#     (param(Project(branchName="abcdefjhijklmnopqrstuvwxyzabcdefjhijklmnopqrstuvwxyzabcdefjhijklmnopqrstuvwxyzabcdefjhijklmnopqrу100"))),    #max*2
+#     (param(Project(branchName="abcdefjhijklmnopqrstuvwxyzabcdefjhijklmnopqrstuvwxyzabcdefjhijklmno \
+# pqrstuvwxyzabcdefjhijklmnopqrу100"))),    #max*2
 #                 ])
 # def test_create_mheg_project_negative(mheg_negative_maxlen):
 #     old_mheg_projects_list = app.project.get_mheg_projects_list()

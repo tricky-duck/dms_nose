@@ -19,7 +19,7 @@ def test_create_stingray_project_positive(stingray_positive):
     time.sleep(0.5)
     app.project.button_create()
     app.project.stingray_parameters(stingray_positive)
-    app.project.submit_project_creation()
+    app.project.button_submit_project_creation()
     while not len(old_stingray_projects_list) + 1 == app.project.count_stingray_projects():
         pass
     new_stingray_projects_list = app.project.get_mheg_projects_list()

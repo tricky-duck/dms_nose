@@ -16,13 +16,13 @@ class ProjectHelper:
         wd = self.app.wd
         wd.find_element_by_css_selector(".btn.btn-success.pull-left.add").click()
 
-    def submit_project_creation(self):
+    def button_submit_project_creation(self):
         wd = self.app.wd
         wd.find_element_by_xpath(".//*[@class='btn btn-success pull-right']").click()
         self.mheg_project_cache = None
         self.stingray_project_cache = None
 
-    def cancel_project_creation(self):
+    def button_cancel_project_creation(self):
         wd = self.app.wd
         wd.find_element_by_xpath(".//*[@class='btn btn-default pull-left']").click()
         self.mheg_project_cache = None
@@ -57,6 +57,14 @@ class ProjectHelper:
         wd.implicitly_wait(20)
         wd.find_element_by_css_selector(".form-group.templates .btn.btn-default.btn-radio .mheg").click()
 
+    def button_submit_deletion(self):
+        wd = self.app.wd
+        wd.find_element_by_xpath(".//*[@id='Dialog-small']/div//button[1]").click()
+
+    def button_cancel_deletion(self):
+        wd = self.app.wd
+        wd.find_element_by_xpath(".//*[@id='Dialog-small']/div//button[2]").click()
+
     def delete_project_by_index(self, index):
         wd = self.app.wd
         #self.select_project_by_index(index)
@@ -65,7 +73,6 @@ class ProjectHelper:
         time.sleep(1)
         wd.find_elements_by_xpath(".//*[@id='branches']/descendant::button")[index].click()
         wd.find_element_by_xpath(".//*[@class='pull-right open']//ul/li[4]").click()
-        wd.find_element_by_xpath(".//*[@id='Dialog-small']/div//button[1]").click()
         self.mheg_project_cache = None
         self.stingray_project_cache = None
 
@@ -113,18 +120,6 @@ class ProjectHelper:
         return list(self.stingray_project_cache)
 
 
-    def alert_specify_name(self):
-        wd = self.app.wd
-        wd.find_element_by_xpath(".//*/div[@id=\"msg-normal\"]//div[text()='Specify project name.']")
 
-
-    def alert_max_len(self):
-        wd =self.app.wd
-        wd.find_element_by_xpath(".//*/div[@id=\"msg-normal\"]//div[text()='Maximum name length is 50.']")
-
-
-    def alert_name_already_exist(self):
-        wd =self.app.wd
-        wd.find_element_by_xpath(".//*[@id='msg-normal']/div/div[text()=\"Name must be unique for the projects of the same type.\"]")
 
 

@@ -11,16 +11,18 @@ def setup():
 
 
 @parameterized([
-    (param(Project(branchName="branchname7"))),
-    (param(Project(branchName="branchname8"))),
-                ])
+    (param(Project(branchName="1"))),
+    (param(Project(branchName="2"))),
+    (param(Project(branchName="мхег"))),
+    (param(Project(branchName="мхег проект"))),
+    ])
 
 def test_create_mheg_project_positive(mheg_positive):
     old_mheg_projects_list = app.project.get_mheg_projects_list()
     time.sleep(0.5)     #необходимая задержка при наборе тестовых данных
-    app.project.button_create()
+    app.button.button_create()
     app.project.mheg_parameters(mheg_positive)
-    app.project.button_submit_project_creation()
+    app.button.button_submit_project_creation()
     app.alert.alert_project_saved()
     while not len(old_mheg_projects_list) + 1 == app.project.count_mheg_projects():
         pass
@@ -34,14 +36,14 @@ def test_create_mheg_project_positive(mheg_positive):
     (param(Project(branchName=" "))),   #space
     (param(Project(branchName="   "))),   #multiple space
                 ])
-def test_create_mheg_project_negative(mheg_negative_empty):
+def test_create_mheg_project_empty_name(mheg_negative_empty):
     old_mheg_projects_list = app.project.get_mheg_projects_list()
     time.sleep(0.5)
-    app.project.button_create()
+    app.button.button_create()
     app.project.mheg_parameters(mheg_negative_empty)
-    app.project.button_submit_project_creation()
+    app.button.button_submit_project_creation()
     app.alert.alert_specify_name()
-    app.project.button_cancel_project_creation()
+    app.button.button_cancel_project_creation()
     new_mheg_projects_list = app.project.get_mheg_projects_list()
     assert sorted(old_mheg_projects_list, key =(lambda x: x.branchName)) == sorted(new_mheg_projects_list,key = (lambda x: x.branchName))
 
@@ -49,25 +51,25 @@ def test_create_mheg_project_negative(mheg_negative_empty):
 @parameterized([
     (param(Project(branchName="duplicate name"))),
                 ])
-def test_create_mheg_project_negative(mheg_negative_exist):
+def test_create_mheg_project_already_exist(mheg_negative_exist):
     old_mheg_projects_list = app.project.get_mheg_projects_list()
     time.sleep(0.5)     #необходимая задержка при списке тестовых данных
-    app.project.button_create()
+    app.button.button_create()
     app.project.mheg_parameters(mheg_negative_exist)
-    app.project.button_submit_project_creation()
+    app.button.button_submit_project_creation()
     app.alert.alert_project_saved()
     while not len(old_mheg_projects_list) + 1 == app.project.count_mheg_projects():
         pass
-    new_mheg_projects_list = app.project.get_mheg_projects_list()
     old_mheg_projects_list.append(mheg_negative_exist)
+    new_mheg_projects_list = app.project.get_mheg_projects_list()
     assert sorted(old_mheg_projects_list, key =(lambda x: x.branchName)) == sorted(new_mheg_projects_list,key = (lambda x: x.branchName))
     old_mheg_projects_list = app.project.get_mheg_projects_list()
     time.sleep(0.5)     #необходимая задержка при списке тестовых данных
-    app.project.button_create()
+    app.button.button_create()
     app.project.mheg_parameters(mheg_negative_exist)
-    app.project.button_submit_project_creation()
+    app.button.button_submit_project_creation()
     app.alert.alert_name_already_exist()
-    app.project.button_cancel_project_creation()
+    app.button.button_cancel_project_creation()
     assert len(old_mheg_projects_list) == app.project.count_mheg_projects()
     new_mheg_projects_list = app.project.get_mheg_projects_list()
     assert sorted(old_mheg_projects_list, key =(lambda x: x.branchName)) == sorted(new_mheg_projects_list,key = (lambda x: x.branchName))
@@ -87,14 +89,6 @@ def test_create_mheg_project_negative(mheg_negative_exist):
 #     app.project.submit_project_creation()
 #     while not len(old_mheg_projects_list) + 1 == app.project.count_mheg_projects():
 #         pass
-
-
-
-
-
-
-
-
 
 # def teardown_module():
 #     global app

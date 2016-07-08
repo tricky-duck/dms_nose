@@ -1,4 +1,3 @@
-__author__ = 'anna.matveeva'
 import time
 from model.project import Project
 
@@ -8,30 +7,26 @@ class ProjectHelper:
     def __init__(self, app):
         self.app = app
 
+    def sleep(self):
+        # just wait fo few seconds
+        time.sleep(5)
+
     def open_projects_page(self):
         wd = self.app.wd
         wd.find_element_by_xpath("html/body/header/nav/div[2]/ul[1]/li[1]/a").click()
 
-    def button_create(self):
+    def delete_project_by_index(self, index):
         wd = self.app.wd
-        wd.find_element_by_css_selector(".btn.btn-success.pull-left.add").click()
-
-    def button_submit_project_creation(self):
-        wd = self.app.wd
-        wd.find_element_by_xpath(".//*[@class='btn btn-success pull-right']").click()
+        #self.select_project_by_index(index)
+        #wd.find_element_by_css_selector("#branches").click()
+        # submit deletion
+        time.sleep(1)
+        wd.find_elements_by_xpath(".//*[@id='branches']/descendant::button")[index].click()
+        wd.find_element_by_xpath(".//*[@class='pull-right open']//ul/li[4]").click()
         self.mheg_project_cache = None
         self.stingray_project_cache = None
+        self.project_cache = None
 
-    def button_cancel_project_creation(self):
-        wd = self.app.wd
-        wd.find_element_by_xpath(".//*[@class='btn btn-default pull-left']").click()
-        self.mheg_project_cache = None
-        self.stingray_project_cache = None
-
-
-    def sleep(self):
-        # just wait fo few seconds
-        time.sleep(5)
 
     def stingray_parameters(self, project):
         wd = self.app.wd
@@ -48,6 +43,7 @@ class ProjectHelper:
         wd.find_element_by_id("root").click()
         wd.find_element_by_id("root").clear()
         wd.find_element_by_id("root").send_keys(project.root)
+        self.stingray_project_cache = None
 
     def mheg_parameters(self, project):
         wd = self.app.wd
@@ -56,29 +52,11 @@ class ProjectHelper:
         wd.find_element_by_id("branchName").send_keys(project.branchName)
         wd.implicitly_wait(20)
         wd.find_element_by_css_selector(".form-group.templates .btn.btn-default.btn-radio .mheg").click()
-
-    def button_submit_deletion(self):
-        wd = self.app.wd
-        wd.find_element_by_xpath(".//*[@id='Dialog-small']/div//button[1]").click()
-
-    def button_cancel_deletion(self):
-        wd = self.app.wd
-        wd.find_element_by_xpath(".//*[@id='Dialog-small']/div//button[2]").click()
-
-    def delete_project_by_index(self, index):
-        wd = self.app.wd
-        #self.select_project_by_index(index)
-        #wd.find_element_by_css_selector("#branches").click()
-        # submit deletion
-        time.sleep(1)
-        wd.find_elements_by_xpath(".//*[@id='branches']/descendant::button")[index].click()
-        wd.find_element_by_xpath(".//*[@class='pull-right open']//ul/li[4]").click()
         self.mheg_project_cache = None
-        self.stingray_project_cache = None
 
-    def edit_mheg_project_name_by_index(self, index):
+    def edit_project_name_by_index(self, index):
         wd = self.app.wd
-        wd.find_elements_by_xpath(".//*[@class='name'][preceding-sibling::span[@class='mheg']]")[index].click()
+        wd.find_elements_by_xpath(".//*[@class='normal']/span[@class='name']")[index].click()
         wd.find_element_by_xpath(".//*[@class=\"edit name form-control\"]").clear()
         wd.find_element_by_xpath(".//*[@id='branches']//input").send_keys("new name\n")
         self.mheg_project_cache = None
@@ -119,7 +97,17 @@ class ProjectHelper:
                 self.stingray_project_cache.append(Project(branchName = text))
         return list(self.stingray_project_cache)
 
+    project_cache = None
 
+    def count_projects(self):
+        wd = self.app.wd
+        return len(wd.find_elements_by_xpath(".//*[@class='panel panel-default']"))
 
-
-
+    def get_projects_list(self):
+        if self.project_cache is None:
+            wd = self.app.wd
+            self.project_cache = []
+            for element in wd.find_elements_by_xpath(".//*[@class='name']"):
+                text = element.get_attribute("title")
+                self.project_cache.append(Project(branchName = text))
+        return list(self.project_cache)

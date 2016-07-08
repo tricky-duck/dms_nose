@@ -1,5 +1,3 @@
-__author__ = 'anna.matveeva'
-
 
 
 class Alert:
@@ -22,7 +20,19 @@ class Alert:
 
     def alert_specify_name(self):
         wd = self.app.wd
-        wd.find_element_by_xpath(".//*/div[@id=\"msg-normal\"]//div[text()='Specify project name.']")
+        wd.find_element_by_xpath(".//*[@id='msg-normal']//div[text()='Specify project name.']")
+
+    def alert_specify_appid(self):
+        wd = self.app.wd
+        wd.find_element_by_xpath(".//*[@id='msg-normal']//div[text()='Specify project application ID.']")
+
+    def alert_specify_scope(self):
+        wd = self.app.wd
+        wd.find_element_by_xpath(".//*[@id='msg-normal']//div[text()='Specify Scope.']")
+
+    def alert_specify_root(self):
+        wd = self.app.wd
+        wd.find_element_by_xpath(".//*[@id='msg-normal']//div[text()='Specify Root.']")
 
 
     def alert_max_len(self):

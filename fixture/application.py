@@ -4,6 +4,7 @@ from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.project import ProjectHelper
 from fixture.alert import Alert
+from fixture.button import Button
 
 class Application:
 
@@ -17,6 +18,8 @@ class Application:
         self.session = SessionHelper(self)
         self.project = ProjectHelper(self)
         self.alert = Alert(self)
+        self.button = Button(self)
+
     def is_valid(self):
         try:
             self.wd.current_url

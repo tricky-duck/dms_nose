@@ -1,0 +1,20 @@
+
+{
+  "mheg_positive":[{
+
+      "branchName": "первый",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  },
+    {
+
+      "branchName": "второй",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  }
+
+  ]
+
+}

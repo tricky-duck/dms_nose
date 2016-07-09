@@ -1,9 +1,8 @@
-__author__ = 'anna.matveeva'
-
 from time import sleep
 from fixture.application import Application
 import os.path
 import json
+import jsonpickle
 
 config_file = None
 config_file_name = "config_file.json"
@@ -17,6 +16,10 @@ def load_config(file_name="config_file.json"):
         with open(config_file_path) as f:
             config_file = json.load(f)
     return config_file
+
+def load_from_json(file):
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "%s" % file)) as f:
+        return jsonpickle.decode(f.read())
 
 def set_app():
     global app

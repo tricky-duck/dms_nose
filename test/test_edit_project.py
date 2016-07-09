@@ -2,8 +2,6 @@ __author__ = 'anna.matveeva'
 
 from test import *
 from model.project import Project
-
-from time import sleep
 from random import randrange
 
 def setup():

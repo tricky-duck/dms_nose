@@ -10,13 +10,16 @@ def setup():
     app = set_app()
 
 
-@parameterized([
-    (param(Project(branchName="1"))),
-    (param(Project(branchName="2"))),
-    (param(Project(branchName="мхег"))),
-    (param(Project(branchName="мхег проект"))),
-    ])
+def load_from_json(file):
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "../%s" % file)) as f:
+        return json.loads(f.read())
 
+@parameterized([param(Project(**positive)) for positive in load_from_json('create_project.json')['mheg_positive']
+    # (param(Project(branchName="1"))),
+    # (param(Project(branchName="2"))),
+    # (param(Project(branchName="мхег"))),
+    # (param(Project(branchName="мхег проект"))),
+])
 def test_create_mheg_project_positive(mheg_positive):
     old_mheg_projects_list = app.project.get_mheg_projects_list()
     time.sleep(0.5)     #необходимая задержка при наборе тестовых данных

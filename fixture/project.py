@@ -132,6 +132,16 @@ class ProjectHelper:
         self.alert.alert_specify_root()
         self.button_cancel_project_creation()
 
+    def stingray_project_create_duplicate(self, data):
+        self.stingray_project_create_positive(data)
+        self.alert.alert_project_saved()
+        self.button_create()
+        self.stingray_parameters(data)
+        self.button_submit_project_creation()
+        self.alert.alert_name_already_exist()
+        self.button_cancel_project_creation()
+
+
     def count_stingray_projects(self):
         wd = self.app.wd
         return len(wd.find_elements_by_xpath(".//*[@class='stingray']"))

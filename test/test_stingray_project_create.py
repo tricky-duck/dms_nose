@@ -56,3 +56,13 @@ def test_stingray_project_create_negative_empty_root(stingray_empty_root):
     app.project.stingray_project_create_empty_root(stingray_empty_root)
     new_stingray_projects_list = app.project.get_stingray_projects_list()
     assert sorted(old_stingray_projects_list, key =(lambda x: x.branchName)) == sorted(new_stingray_projects_list,key = (lambda x: x.branchName))
+
+
+@parameterized([param(Project(**duplicate)) for duplicate in loads_from_json('project_create.json')['stingray_duplicate']])
+def test_stingray_project_create_negative_already_exist(stingray_duplicate):
+    old_stingray_projects_list = app.project.get_stingray_projects_list()
+    app.project.stingray_project_create_duplicate(stingray_duplicate)
+    assert len(old_stingray_projects_list) + 1 == app.project.count_stingray_projects()
+    new_stingray_projects_list = app.project.get_stingray_projects_list()
+    old_stingray_projects_list.append(stingray_duplicate)
+    assert sorted(old_stingray_projects_list, key =(lambda x: x.branchName)) == sorted(new_stingray_projects_list,key = (lambda x: x.branchName))

@@ -9,6 +9,7 @@ def setup():
     global app
     app = set_app()
 
+
 def test_delete_project():
     if app.project.count_projects() == 0:
         app.project.button_create()

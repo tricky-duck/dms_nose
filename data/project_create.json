@@ -157,9 +157,16 @@
       "scope": "scope13",
       "root": "   "
     }
+  ],
+  "stingray_duplicate":
+  [
+    {
+      "branchName": "stingray_dupl",
+      "appId": "duplicate",
+      "scope": "duplicate",
+      "root": "duplicate"
+    }
   ]
-
-
 }
 
 

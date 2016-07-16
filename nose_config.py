@@ -1,8 +1,11 @@
+# -*- coding: utf-8 -*-
+
 from time import sleep
-from fixture.application import Application
+from fixture.app import Application
 import os.path
 import json
 import jsonpickle
+
 
 config_file = None
 config_file_name = "config_file.json"
@@ -17,9 +20,13 @@ def load_config(file_name="config_file.json"):
             config_file = json.load(f)
     return config_file
 
+def loads_from_json(file):
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/%s" % file)) as f:
+        return json.loads(f.read())
+
 def load_from_json(file):
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "%s" % file)) as f:
-        return jsonpickle.decode(f.read())
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/%s" % file)) as f:
+        return json.load(f.read())
 
 def set_app():
     global app

@@ -1,10 +1,10 @@
-__author__ = 'anna.matveeva'
+# -*- coding: utf-8 -*-
 
 from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.project import ProjectHelper
-from fixture.alert import Alert
-from fixture.button import Button
+from fixture.alert import AlertHelper
+
 
 class Application:
 
@@ -17,8 +17,7 @@ class Application:
         self.wd.implicitly_wait(5)
         self.session = SessionHelper(self)
         self.project = ProjectHelper(self)
-        self.alert = Alert(self)
-        self.button = Button(self)
+        self.alert = AlertHelper(self)
 
     def is_valid(self):
         try:

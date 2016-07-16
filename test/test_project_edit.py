@@ -11,12 +11,12 @@ def setup():
 
 def test_edit_project_name():
     if app.project.count_projects() == 0:
-        app.button.button_create()
+        app.project.button_create()
         app.project.mheg_parameters(Project(branchName="mheg to edit"))
-        app.button.button_submit_project_creation()
-        app.button.button_create()
+        app.project.button_submit_project_creation()
+        app.project.button_create()
         app.project.stingray_parameters(Project(branchName="stingray to edit", appId="2", root="3", scope="4"))
-        app.button.button_submit_project_creation()
+        app.project.button_submit_project_creation()
     old_projects_list = app.project.get_projects_list()
     index = randrange(len(old_projects_list))
     app.project.edit_project_name_by_index(index)

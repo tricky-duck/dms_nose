@@ -1,0 +1,53 @@
+
+{
+  "mheg_positive":[{
+
+      "branchName": "dcgfcsd",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  },
+    {
+
+      "branchName": "fghfg",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  }
+
+  ],
+  "mheg_empty_name":[{
+
+      "branchName": "",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  },
+    {
+
+      "branchName": " ",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  },
+    {
+
+      "branchName": "   ",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  }
+
+  ],
+
+   "mheg_duplicate":[{
+
+      "branchName": "mheg duplicate",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+  }
+]
+}
+
+

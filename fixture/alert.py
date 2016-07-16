@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 
 
-class Alert:
+
+class AlertHelper:
 
     def __init__(self, app):
         self.app = app

@@ -1,4 +1,4 @@
-__author__ = 'anna.matveeva'
+# -*- coding: utf-8 -*-
 
 class SessionHelper:
 

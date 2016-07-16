@@ -1,4 +1,4 @@
-__author__ = 'anna.matveeva'
+# -*- coding: utf-8 -*-
 
 class Project:
     def __init__(self, branchName, appId=None, scope=None, root=None):

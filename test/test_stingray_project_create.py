@@ -1,7 +1,10 @@
+# -*- coding: utf-8 -*-
+
 from nose_parameterized import parameterized, param
 from model.project import Project
 from test import *
 import time
+
 
 def setup():
     global app
@@ -15,9 +18,9 @@ def setup():
 def test_create_stingray_project_positive(stingray_positive):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
     time.sleep(0.5)
-    app.button.button_create()
+    app.project.button_create()
     app.project.stingray_parameters(stingray_positive)
-    app.button.button_submit_project_creation()
+    app.project.button_submit_project_creation()
     while not len(old_stingray_projects_list) + 1 == app.project.count_stingray_projects():
         pass
     new_stingray_projects_list = app.project.get_stingray_projects_list()
@@ -33,11 +36,11 @@ def test_create_stingray_project_positive(stingray_positive):
 def test_create_stingray_project_empty_name(stingray_empty_name):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
     time.sleep(0.5)
-    app.button.button_create()
+    app.project.button_create()
     app.project.stingray_parameters(stingray_empty_name)
-    app.button.button_submit_project_creation()
+    app.project.button_submit_project_creation()
     app.alert.alert_specify_name()
-    app.button.button_cancel_project_creation()
+    app.project.button_cancel_project_creation()
     new_stingray_projects_list = app.project.get_stingray_projects_list()
     assert sorted(old_stingray_projects_list, key =(lambda x: x.branchName)) == sorted(new_stingray_projects_list,key = (lambda x: x.branchName))
 
@@ -50,11 +53,11 @@ def test_create_stingray_project_empty_name(stingray_empty_name):
 def test_create_stingray_project_empty_appID(stingray_empty_appID):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
     time.sleep(0.5)
-    app.button.button_create()
+    app.project.button_create()
     app.project.stingray_parameters(stingray_empty_appID)
-    app.button.button_submit_project_creation()
+    app.project.button_submit_project_creation()
     app.alert.alert_specify_appid()
-    app.button.button_cancel_project_creation()
+    app.project.button_cancel_project_creation()
     new_stingray_projects_list = app.project.get_stingray_projects_list()
     assert sorted(old_stingray_projects_list, key =(lambda x: x.branchName)) == sorted(new_stingray_projects_list,key = (lambda x: x.branchName))
 
@@ -67,11 +70,11 @@ def test_create_stingray_project_empty_appID(stingray_empty_appID):
 def test_create_stingray_project_empty_scope(stingray_empty_scope):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
     time.sleep(0.5)
-    app.button.button_create()
+    app.project.button_create()
     app.project.stingray_parameters(stingray_empty_scope)
-    app.button.button_submit_project_creation()
+    app.project.button_submit_project_creation()
     app.alert.alert_specify_scope()
-    app.button.button_cancel_project_creation()
+    app.project.button_cancel_project_creation()
     new_stingray_projects_list = app.project.get_stingray_projects_list()
     assert sorted(old_stingray_projects_list, key =(lambda x: x.branchName)) == sorted(new_stingray_projects_list,key = (lambda x: x.branchName))
 
@@ -84,10 +87,10 @@ def test_create_stingray_project_empty_scope(stingray_empty_scope):
 def test_create_stingray_project_empty_root(stingray_empty_root):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
     time.sleep(0.5)
-    app.button.button_create()
+    app.project.button_create()
     app.project.stingray_parameters(stingray_empty_root)
-    app.button.button_submit_project_creation()
+    app.project.button_submit_project_creation()
     app.alert.alert_specify_root()
-    app.button.button_cancel_project_creation()
+    app.project.button_cancel_project_creation()
     new_stingray_projects_list = app.project.get_stingray_projects_list()
     assert sorted(old_stingray_projects_list, key =(lambda x: x.branchName)) == sorted(new_stingray_projects_list,key = (lambda x: x.branchName))

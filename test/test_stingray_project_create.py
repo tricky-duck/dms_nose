@@ -10,7 +10,6 @@ def setup():
     global app
     app = set_app()
 
-
 @parameterized([param(Project(**positive))for positive in loads_from_json('project_create.json')['stingray_positive']])
 def test_create_stingray_project_positive(stingray_positive):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
@@ -42,7 +41,7 @@ def test_stingray_project_create_negative_empty_appID(stingray_empty_appID):
 
 
 @parameterized([param(Project(**empty_scope)) for empty_scope in loads_from_json('project_create.json')['stingray_empty_scope']])
-def test_create_stingray_project_empty_scope(stingray_empty_scope):
+def test_stingray_project_create_negative_empty_scope(stingray_empty_scope):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
     time.sleep(0.5)
     app.project.stingray_project_create_empty_scope(stingray_empty_scope)
@@ -51,7 +50,7 @@ def test_create_stingray_project_empty_scope(stingray_empty_scope):
 
 
 @parameterized([param(Project(**empty_root)) for empty_root in loads_from_json('project_create.json')['stingray_empty_root']])
-def test_create_stingray_project_empty_root(stingray_empty_root):
+def test_stingray_project_create_negative_empty_root(stingray_empty_root):
     old_stingray_projects_list = app.project.get_stingray_projects_list()
     time.sleep(0.5)
     app.project.stingray_project_create_empty_root(stingray_empty_root)

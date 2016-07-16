@@ -19,6 +19,9 @@ class ProjectHelper:
         wd = self.app.wd
         wd.find_element_by_xpath("html/body/header/nav/div[2]/ul[1]/li[1]/a").click()
 
+    mheg_project_cache = None
+    stingray_project_cache = None
+    project_cache = None
 
 ####MHEG PROJECTS
 
@@ -56,22 +59,26 @@ class ProjectHelper:
         self.alert.alert_name_already_exist()
         self.button_cancel_project_creation()
 
-
-
-
-
-
-
-
-    def delete_project_by_index(self, index):
+    def count_mheg_projects(self):
         wd = self.app.wd
-        time.sleep(1)
-        wd.find_elements_by_xpath(".//*[@id='branches']/descendant::button")[index].click()
-        wd.find_element_by_xpath(".//*[@class='pull-right open']//ul/li[4]").click()
-        self.mheg_project_cache = None
-        self.stingray_project_cache = None
-        self.project_cache = None
+        try:
+            mheg_list = len(wd.find_elements_by_xpath(".//*[@class='mheg']"))
+        except:
+            mheg_list = 0
+        self.a = mheg_list
+        return mheg_list
 
+    def get_mheg_projects_list(self):
+        if self.mheg_project_cache is None:
+            wd = self.app.wd
+            self.mheg_project_cache = []
+            for element in wd.find_elements_by_xpath(".//*[@class='name'][preceding-sibling::span[@class='mheg']]"):
+                text = element.get_attribute("title")
+                self.mheg_project_cache.append(Project(branchName = text))
+        return list(self.mheg_project_cache)
+
+
+####STINGRAY PROJECTS
 
     def stingray_parameters(self, project):
         wd = self.app.wd
@@ -90,41 +97,44 @@ class ProjectHelper:
         wd.find_element_by_id("root").send_keys(project.root)
         self.stingray_project_cache = None
 
-
-
-    def edit_project_name_by_index(self, index):
+    def stingray_project_create_positive(self, data):
         wd = self.app.wd
-        wd.find_elements_by_xpath(".//*[@class='normal']/span[@class='name']")[index].click()
-        wd.find_element_by_xpath(".//*[@class=\"edit name form-control\"]").clear()
-        wd.find_element_by_xpath(".//*[@id='branches']//input").send_keys("new name\n")
-        self.mheg_project_cache = None
-        self.stingray_project_cache = None
+        self.button_create()
+        self.stingray_parameters(data)
+        self.button_submit_project_creation()
+        self.alert.alert_project_saved()
 
-    def count_mheg_projects(self):
-        wd = self.app.wd
-        try:
-            mheg_list = len(wd.find_elements_by_xpath(".//*[@class='mheg']"))
-        except:
-            mheg_list = 0
-        self.a = mheg_list
-        return mheg_list
+    def stingray_project_create_empty_name(self, data):
+        self.button_create()
+        self.stingray_parameters(data)
+        self.button_submit_project_creation()
+        self.alert.alert_specify_name()
+        self.button_cancel_project_creation()
+
+    def stingray_project_create_empty_appid(self, data):
+        self.button_create()
+        self.stingray_parameters(data)
+        self.button_submit_project_creation()
+        self.alert.alert_specify_appid()
+        self.button_cancel_project_creation()
+
+    def stingray_project_create_empty_scope(self, data):
+        self.button_create()
+        self.stingray_parameters(data)
+        self.button_submit_project_creation()
+        self.alert.alert_specify_scope()
+        self.button_cancel_project_creation()
+
+    def stingray_project_create_empty_root(self, data):
+        self.button_create()
+        self.stingray_parameters(data)
+        self.button_submit_project_creation()
+        self.alert.alert_specify_root()
+        self.button_cancel_project_creation()
 
     def count_stingray_projects(self):
         wd = self.app.wd
         return len(wd.find_elements_by_xpath(".//*[@class='stingray']"))
-
-    mheg_project_cache = None
-
-    def get_mheg_projects_list(self):
-        if self.mheg_project_cache is None:
-            wd = self.app.wd
-            self.mheg_project_cache = []
-            for element in wd.find_elements_by_xpath(".//*[@class='name'][preceding-sibling::span[@class='mheg']]"):
-                text = element.get_attribute("title")
-                self.mheg_project_cache.append(Project(branchName = text))
-        return list(self.mheg_project_cache)
-
-    stingray_project_cache = None
 
     def get_stingray_projects_list(self):
         if self.stingray_project_cache is None:
@@ -135,7 +145,24 @@ class ProjectHelper:
                 self.stingray_project_cache.append(Project(branchName = text))
         return list(self.stingray_project_cache)
 
-    project_cache = None
+
+    def delete_project_by_index(self, index):
+        wd = self.app.wd
+        time.sleep(1)
+        wd.find_elements_by_xpath(".//*[@id='branches']/descendant::button")[index].click()
+        wd.find_element_by_xpath(".//*[@class='pull-right open']//ul/li[4]").click()
+        self.mheg_project_cache = None
+        self.stingray_project_cache = None
+        self.project_cache = None
+
+    def edit_project_name_by_index(self, index):
+        wd = self.app.wd
+        wd.find_elements_by_xpath(".//*[@class='normal']/span[@class='name']")[index].click()
+        wd.find_element_by_xpath(".//*[@class=\"edit name form-control\"]").clear()
+        wd.find_element_by_xpath(".//*[@id='branches']//input").send_keys("new name\n")
+        self.mheg_project_cache = None
+        self.stingray_project_cache = None
+
 
     def count_projects(self):
         wd = self.app.wd

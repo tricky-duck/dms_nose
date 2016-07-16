@@ -24,10 +24,6 @@ def loads_from_json(file):
     with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/%s" % file)) as f:
         return json.loads(f.read())
 
-def load_from_json(file):
-    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/%s" % file)) as f:
-        return json.load(f.read())
-
 def set_app():
     global app
     web_config = load_config(config_file_name)['web']

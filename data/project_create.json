@@ -1,7 +1,8 @@
 
 {
-  "mheg_positive":[{
-
+  "mheg_positive":
+  [
+    {
       "branchName": "dcgfcsd",
       "appId": "None",
       "scope": "None",
@@ -14,9 +15,11 @@
       "scope": "None",
       "root": "None"
   }
-
   ],
-  "mheg_empty_name":[{
+
+  "mheg_empty_name":
+  [
+    {
 
       "branchName": "",
       "appId": "None",
@@ -39,15 +42,124 @@
   }
 
   ],
-
-   "mheg_duplicate":[{
-
+   "mheg_duplicate":
+   [
+     {
       "branchName": "mheg duplicate",
       "appId": "None",
       "scope": "None",
       "root": "None"
-  }
-]
+     }
+  ],
+  "stingray_positive":
+  [
+    {
+      "branchName": "stingray1",
+      "appId": "appid1",
+      "scope": "scope1",
+      "root": "root1"
+    },
+    {
+
+      "branchName": "stingray2",
+      "appId": "appid2",
+      "scope": "scope2",
+      "root": "root2"
+  },
+    {
+
+      "branchName": "stingray3",
+      "appId": "appid3",
+      "scope": "scope3",
+      "root": "root3"
+    }
+  ],
+  "stingray_empty_name":
+  [
+    {
+      "branchName": "",
+      "appId": "appid1",
+      "scope": "scope1",
+      "root": "root1"
+  },
+    {
+      "branchName": " ",
+      "appId": "appid2",
+      "scope": "scope2",
+      "root": "root2"
+    },
+    {
+      "branchName": "   ",
+      "appId": "appid3",
+      "scope": "scope3",
+      "root": "root3"
+    }
+  ],
+  "stingray_empty_appid":
+  [
+    {
+      "branchName": "stingray5",
+      "appId": "",
+      "scope": "scope5",
+      "root": "root5"
+    },
+    {
+      "branchName": "stingray6",
+      "appId": " ",
+      "scope": "scope6",
+      "root": "root6"
+    },
+    {
+      "branchName": "stingray7",
+      "appId": "   ",
+      "scope": "scope7",
+      "root": "root7"
+    }
+  ],
+    "stingray_empty_scope":
+  [
+    {
+      "branchName": "stingray8",
+      "appId": "appId8",
+      "scope": "",
+      "root": "root8"
+    },
+    {
+      "branchName": "stingray9",
+      "appId": "appId9",
+      "scope": " ",
+      "root": "root9"
+    },
+    {
+      "branchName": "stingray10",
+      "appId": "appId10",
+      "scope": "   ",
+      "root": "root10"
+    }
+  ],
+    "stingray_empty_root":
+  [
+    {
+      "branchName": "stingray11",
+      "appId": "appId11",
+      "scope": "scope11",
+      "root": ""
+    },
+    {
+      "branchName": "stingray12",
+      "appId": "appId12",
+      "scope": "scope12",
+      "root": " "
+    },
+    {
+      "branchName": "stingray13",
+      "appId": "appId13",
+      "scope": "scope13",
+      "root": "   "
+    }
+  ]
+
+
 }
 
 

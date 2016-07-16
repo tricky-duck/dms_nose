@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+# from model.alert import Alert
 
 
 class AlertHelper:

@@ -3,6 +3,7 @@
 import time
 from model.project import Project
 from fixture.alert import AlertHelper
+from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 class ProjectHelper:
@@ -141,7 +142,6 @@ class ProjectHelper:
         self.alert.alert_name_already_exist()
         self.button_cancel_project_creation()
 
-
     def count_stingray_projects(self):
         wd = self.app.wd
         return len(wd.find_elements_by_xpath(".//*[@class='stingray']"))
@@ -155,7 +155,6 @@ class ProjectHelper:
                 self.stingray_project_cache.append(Project(branchName = text))
         return list(self.stingray_project_cache)
 
-
     def delete_project_by_index(self, index):
         wd = self.app.wd
         time.sleep(1)
@@ -165,14 +164,16 @@ class ProjectHelper:
         self.stingray_project_cache = None
         self.project_cache = None
 
-    def edit_project_name_by_index(self, index):
+    def edit_project_name_by_index(self, index, new_name):
         wd = self.app.wd
         wd.find_elements_by_xpath(".//*[@class='normal']/span[@class='name']")[index].click()
-        wd.find_element_by_xpath(".//*[@class=\"edit name form-control\"]").clear()
-        wd.find_element_by_xpath(".//*[@id='branches']//input").send_keys("new name\n")
+        wd.find_elements_by_xpath("(.//div[@id='branches']//input)")[index].clear()
+        wd.find_elements_by_xpath("(.//*[@class='edit name form-control'])")[index].send_keys(new_name)
+        wd.find_elements_by_xpath("(.//div[@id='branches']//input)")[index].send_keys(Keys.RETURN)
+        self.alert.alert_branch_changed()
         self.mheg_project_cache = None
         self.stingray_project_cache = None
-
+        self.project_cache = None
 
     def count_projects(self):
         wd = self.app.wd

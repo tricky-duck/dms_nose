@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Mod_5orr6r",
+    "width": 6,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 32,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive_mod/Mod_6qiqyFUDWP3k.PNG",
+    "file_type": "PNG"
+  },
+  {
+    "name": "Mod_nctFXLcfkVebDIN",
+    "width": 37,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 63,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive_mod/Mod_0hyJBD0Len0OqYsnPfbjIhymAsZLhiVO6nSVQ54E2XIClE.JPG",
+    "file_type": "JPG"
+  },
+  {
+    "name": "Mod_EjD3VcRCsW",
+    "width": 6,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 40,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive_mod/Mod_7laF90.PNG",
+    "file_type": "PNG"
+  },
+  {
+    "name": "Mod_b8cz",
+    "width": 50,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 82,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive_mod/Mod_kwHxz2WfKosjNXnUYMzjThwE9gn8fbc0lKNjCG8qASD42.JPEG",
+    "file_type": "JPEG"
+  },
+  {
+    "name": "Mod_hul7I0ollgZNSMRSJPMNjwSTgrnVakx0ZzKjuT8",
+    "width": 55,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 8,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive_mod/Mod_TZbCWa1TtMEti8mZ9N6x5teGHUh.JPG",
+    "file_type": "JPG"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "                                ",
+    "width": 5,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 41,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_negative_spaces/                                .PNG",
+    "file_type": "PNG"
+  },
+  {
+    "name": "                          ",
+    "width": 66,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 50,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_negative_spaces/                          .JPEG",
+    "file_type": "JPEG"
+  }
+]

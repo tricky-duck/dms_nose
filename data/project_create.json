@@ -3,18 +3,24 @@
   "mheg_positive":
   [
     {
-      "branchName": "dcgfcsd",
+      "branchName": "mheg1",
       "appId": "None",
       "scope": "None",
       "root": "None"
   },
     {
 
-      "branchName": "fghfg",
+      "branchName": "mheg2",
       "appId": "None",
       "scope": "None",
       "root": "None"
-  }
+  },
+    {
+      "branchName": "mheg3",
+      "appId": "None",
+      "scope": "None",
+      "root": "None"
+    }
   ],
 
   "mheg_empty_name":

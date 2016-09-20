@@ -1,4 +1,4 @@
-__author__ = 'anna.matveeva'
+# -*- coding: utf-8 -*-
 
 from test import *
 from model.project import Project
@@ -11,14 +11,10 @@ def setup():
 
 def test_edit_project_name():
     if app.project.count_projects() == 0:
-        app.project.button_create()
-        app.project.mheg_parameters(Project(branchName="mheg to edit"))
-        app.project.button_submit_project_creation()
-        app.project.button_create()
-        app.project.stingray_parameters(Project(branchName="stingray to edit", appId="2", root="3", scope="4"))
-        app.project.button_submit_project_creation()
+        app.project.mheg_project_create_positive(Project(branchName="mheg to edit"))
+        app.project.stingray_project_create_positive(Project(branchName="stingray to edit", appId="2", root="3", scope="4"))
     old_projects_list = app.project.get_projects_list()
     index = randrange(len(old_projects_list))
-    app.project.edit_project_name_by_index(index)
+    app.project.edit_project_name_by_index(index,"edited")
     new_projects_list = app.project.get_projects_list()
     assert len(old_projects_list) == len(new_projects_list)

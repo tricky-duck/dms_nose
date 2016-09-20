@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Progr_doOlhOO9Hy2ZXwDQsFd21mnyF67WkUn4sbAfB4xBAl",
+    "width": 78,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": true,
+    "height": 11,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_negative_progressive/Progr_doOlhOO9Hy2ZXwDQsFd21mnyF67WkUn4sbAfB4xBAl.JPEG",
+    "file_type": "JPEG"
+  },
+  {
+    "name": "Progr_Ani1pp8leX57ufWa3kGGhAcKhnSKgWEH96",
+    "width": 14,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": true,
+    "height": 47,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_negative_progressive/Progr_Ani1pp8leX57ufWa3kGGhAcKhnSKgWEH96.JPG",
+    "file_type": "JPG"
+  }
+]

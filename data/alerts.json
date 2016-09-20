@@ -1,0 +1,68 @@
+{
+  "add_one_file": {
+    "py/object": "model.alert.Alert",
+    "message": "File was successfully uploaded.",
+    "popup": null,
+    "lang": "eng"
+  },
+  "add_many_files": {
+    "py/object": "model.alert.Alert",
+    "message": "Files were successfully uploaded. Count of files: %s",
+    "popup": null,
+    "lang": "eng"
+  },
+  "delete_one_file": {
+    "py/object": "model.alert.Alert",
+    "message": "File %s deleted",
+    "popup": "Are you sure you want to delete file %s?",
+    "lang": "eng"
+  },
+  "delete_many_files": {
+    "py/object": "model.alert.Alert",
+    "message": "%s files deleted",
+    "popup": "Are you sure you want to delete %s files?",
+    "lang": "eng"
+  },
+  "add_progressive_error": {
+    "py/object": "model.alert.Alert",
+    "message": "%s - Image format error: progressive JPEG images are not supported.",
+    "popup": null,
+    "lang": "eng"
+  },
+  "add_file_format_error": {
+    "py/object": "model.alert.Alert",
+    "message": "%s - This file format is not supported.",
+    "popup": null,
+    "lang": "eng"
+  },
+  "add_file_size_error": {
+    "py/object": "model.alert.Alert",
+    "message": "%s - file is too large. Max allowed size is 2 MB.",
+    "popup": null,
+    "lang": "eng"
+  },
+  "add_image_size_error": {
+    "py/object": "model.alert.Alert",
+    "message": "%s - Image format error: progressive JPEG images are not supported.",
+    "popup": null,
+    "lang": "eng"
+  },
+  "add_file_name_too_long_error": {
+    "py/object": "model.alert.Alert",
+    "message": "Maximum name length is 50.",
+    "popup": null,
+    "lang": "eng"
+  },
+  "add_file_name_empty": {
+    "py/object": "model.alert.Alert",
+    "message": "Specify a file name",
+    "popup": null,
+    "lang": "eng"
+  },
+  "add_file_name_spaces": {
+    "py/object": "model.alert.Alert",
+    "message": "Specify a file name",
+    "popup": null,
+    "lang": "eng"
+  }
+}

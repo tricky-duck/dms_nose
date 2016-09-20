@@ -4,20 +4,20 @@
     <list default="true" id="46680a90-b8d8-4816-8822-5635b4fba8c5" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/alert.py" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/fixture/button.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/project.py" afterPath="$PROJECT_DIR$/fixture/project.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_edit_project.py" afterPath="$PROJECT_DIR$/test/test_project_edit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/session.py" afterPath="$PROJECT_DIR$/fixture/session.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_create_stingray_project.py" afterPath="$PROJECT_DIR$/test/test_stingray_project_create.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/project.py" afterPath="$PROJECT_DIR$/model/project.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/create_project.json" afterPath="$PROJECT_DIR$/data/project_create.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/session.py" afterPath="$PROJECT_DIR$/fixture/session.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_edit_project.py" afterPath="$PROJECT_DIR$/test/test_project_edit.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_delete_project.py" afterPath="$PROJECT_DIR$/test/test_project_delete.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/create_project.json" afterPath="$PROJECT_DIR$/data/project_create.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/alert.py" afterPath="$PROJECT_DIR$/fixture/alert.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nose_config.py" afterPath="$PROJECT_DIR$/nose_config.py" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_create_mheg_project.py" afterPath="$PROJECT_DIR$/test/test_mheg_project_create.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/test_delete_project.py" afterPath="$PROJECT_DIR$/test/test_project_delete.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/alert.py" afterPath="$PROJECT_DIR$/fixture/alert.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/project.py" afterPath="$PROJECT_DIR$/fixture/project.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/fixture/application.py" afterPath="$PROJECT_DIR$/fixture/app.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/project.py" afterPath="$PROJECT_DIR$/model/project.py" />
     </list>
     <ignored path="dms_nose.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_mheg_project_create.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_mheg_project_create.py">
+      <file leaf-file-name="test_project_stingray_add.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_project_stingray_add.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="137" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#25#76#0" expanded="true" />
               </folding>
@@ -50,67 +50,97 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_stingray_project_create.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_stingray_project_create.py">
+      <file leaf-file-name="test_media_add.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_media_add.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="63" column="69" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="69" />
+            <state relative-caret-position="459">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding>
-                <element signature="e#25#76#0" expanded="true" />
+                <element signature="e#24#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_project_delete.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_project_delete.py">
+      <file leaf-file-name="media_positive_mod.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/media_positive_mod.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <element signature="e#30#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media_positive.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/media_positive.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/project.py">
+        <entry file="file://$PROJECT_DIR$/generator/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2363">
-              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state relative-caret-position="544">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
-                <element signature="e#25#36#0" expanded="true" />
+                <element signature="e#25#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nose_config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nose_config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+              <folding>
+                <element signature="e#25#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="media.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fixture/media.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/project.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config_file.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_file.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="alert.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/alert.py">
+        <entry file="file://$PROJECT_DIR$/model/alert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project_create.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/project_create.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2720">
-              <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/project.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="374">
+              <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -140,7 +170,6 @@
         <option value="$PROJECT_DIR$/dms_nose/fixture/application.py" />
         <option value="$PROJECT_DIR$/dms_nose/test/test_create_project.py" />
         <option value="$PROJECT_DIR$/dms_nose/nose_config.py" />
-        <option value="$PROJECT_DIR$/config_file.json" />
         <option value="$PROJECT_DIR$/test/__init__.py" />
         <option value="$PROJECT_DIR$/test/test_create_project.py" />
         <option value="$PROJECT_DIR$/test/test_delete_mheg_project.py" />
@@ -151,22 +180,28 @@
         <option value="$PROJECT_DIR$/test/test_create_stingray_project.py" />
         <option value="$PROJECT_DIR$/test/test_edit_project.py" />
         <option value="$PROJECT_DIR$/test/test_create_mheg_project.py" />
-        <option value="$PROJECT_DIR$/model/project.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/button.py" />
-        <option value="$PROJECT_DIR$/test/test_project_edit.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/create_project.json" />
         <option value="$PROJECT_DIR$/test/alert.py" />
-        <option value="$PROJECT_DIR$/fixture/app.py" />
-        <option value="$PROJECT_DIR$/model/alert.py" />
-        <option value="$PROJECT_DIR$/fixture/alert.py" />
         <option value="$PROJECT_DIR$/test/test_mheg_project_create.py" />
-        <option value="$PROJECT_DIR$/nose_config.py" />
+        <option value="$PROJECT_DIR$/test/test_project_delete.py" />
+        <option value="$PROJECT_DIR$/data/project_create.json" />
         <option value="$PROJECT_DIR$/test/test_stingray_project_create.py" />
         <option value="$PROJECT_DIR$/fixture/project.py" />
-        <option value="$PROJECT_DIR$/data/project_create.json" />
-        <option value="$PROJECT_DIR$/test/test_project_delete.py" />
+        <option value="$PROJECT_DIR$/test/test_project_edit.py" />
+        <option value="$PROJECT_DIR$/model/project.py" />
+        <option value="$PROJECT_DIR$/generator/group.py" />
+        <option value="$PROJECT_DIR$/data/project.json" />
+        <option value="$PROJECT_DIR$/generator/project.py" />
+        <option value="$PROJECT_DIR$/fixture/alert.py" />
+        <option value="$PROJECT_DIR$/model/alert.py" />
+        <option value="$PROJECT_DIR$/fixture/app.py" />
+        <option value="$PROJECT_DIR$/nose_config.py" />
+        <option value="$PROJECT_DIR$/config_file.json" />
+        <option value="$PROJECT_DIR$/test/test_media_add.py" />
+        <option value="$PROJECT_DIR$/data/media_positive.json" />
       </list>
     </option>
   </component>
@@ -183,10 +218,13 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Python</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Buildout</id>
+            <id>PyCompatibilityInspection</id>
           </State>
         </selected-state>
       </profile-state>
@@ -259,7 +297,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="generator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,33 +331,67 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/test_media_add.py" />
     <property name="recentsLimit" value="5" />
     <property name="SearchEverywhereHistoryKey" value="edit_mheg_project_name_by_index&#9;null&#9;null" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\copy\trickyDuck\dms_nose\test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\copy\trickyDuck\dms_nose\data" />
       <recent name="D:\copy\trickyDuck\dms_nose\model" />
       <recent name="D:\copy\trickyDuck\dms_nose" />
       <recent name="D:\copy\trickyDuck\dms_nose\dms_nose\model" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\copy\trickyDuck\dms_nose\test" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetest test_project_delete">
-    <configuration default="false" name="Nosetest test_stingray_project_create_negative_empty_appID" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.test_add_media1">
+    <configuration default="false" name="test_project_mheg_add" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dms_nose" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_project_mheg_add.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_media_add" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dms_nose" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_media_add.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Nosetest test_mheg_project_create_negative_empty_name" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -329,9 +401,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="dms_nose" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_stingray_project_create.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_project_mheg_add.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="test_stingray_project_create_negative_empty_appID" />
+      <option name="METHOD_NAME" value="test_mheg_project_create_negative_empty_name" />
       <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
@@ -350,7 +422,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="dms_nose" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_stingray_project_create.py" />
+      <option name="SCRIPT_NAME" value="D:\copy\trickyDuck\dms_nose\test\test_project_stingray_add.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="test_stingray_project_create_negative_empty_scope" />
       <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
@@ -361,7 +433,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Nosetest test_stingray_project_create_negative_empty_root" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Nosetest test_create_stingray_project_positive" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -371,30 +443,9 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="dms_nose" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_stingray_project_create.py" />
+      <option name="SCRIPT_NAME" value="D:\copy\trickyDuck\dms_nose\test\test_project_stingray_add.py" />
       <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="test_stingray_project_create_negative_empty_root" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
-      <option name="TEST_TYPE" value="TEST_FUNCTION" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetest test_stingray_project_create_negative_already_exist" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="dms_nose" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_stingray_project_create.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="test_stingray_project_create_negative_already_exist" />
+      <option name="METHOD_NAME" value="test_create_stingray_project_positive" />
       <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
       <option name="TEST_TYPE" value="TEST_FUNCTION" />
       <option name="PATTERN" value="" />
@@ -537,6 +588,27 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Unnamed" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dms_nose" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_project_delete.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="test_delete_all_projects" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
     <configuration default="false" name="Nosetest test_project_delete" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -558,19 +630,44 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest test_project_delete" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_appID" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_scope" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_root" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_already_exist" />
+    <configuration default="false" name="test_add_media1" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="dms_nose" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_media_add.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="test_add_media" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Python.test_project_mheg_add" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_media_add" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unnamed" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest test_project_delete" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest test_mheg_project_create_negative_empty_name" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_scope" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_stingray_project_positive" />
+      <item index="7" class="java.lang.String" itemvalue="Python tests.test_add_media1" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_already_exist" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_root" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_scope" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_appID" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_media_add" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_project_mheg_add" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetest test_create_stingray_project_positive" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest test_stingray_project_create_negative_empty_scope" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetest test_mheg_project_create_negative_empty_name" />
       </list>
     </recent_temporary>
   </component>
@@ -591,51 +688,60 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Nosetest_test_delete_all_projects - 2016.07.16 at 16h 28m 12s.xml">
-      <configuration name="Nosetest test_delete_all_projects" configurationId="tests" />
+    <history-entry file="Nosetest_test_create_stingray_project_positive - 2016.09.19 at 17h 24m 17s.xml">
+      <configuration name="Nosetest test_create_stingray_project_positive" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_delete_all_projects - 2016.07.16 at 16h 29m 02s.xml">
-      <configuration name="Nosetest test_delete_all_projects" configurationId="tests" />
+    <history-entry file="Nosetest_test_create_stingray_project_positive - 2016.09.19 at 17h 24m 45s.xml">
+      <configuration name="Nosetest test_create_stingray_project_positive" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_delete_all_projects - 2016.07.16 at 16h 29m 06s.xml">
-      <configuration name="Nosetest test_delete_all_projects" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Nosetest_test_project_delete - 2016.07.16 at 16h 30m 01s.xml">
+    <history-entry file="Nosetest_test_project_delete - 2016.09.19 at 17h 37m 22s.xml">
       <configuration name="Nosetest test_project_delete" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_project_delete - 2016.07.16 at 16h 32m 29s.xml">
-      <configuration name="Nosetest test_project_delete" configurationId="tests" />
+    <history-entry file="Unnamed - 2016.09.19 at 17h 38m 35s.xml">
+      <configuration name="Unnamed" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_project_delete - 2016.07.16 at 16h 32m 47s.xml">
-      <configuration name="Nosetest test_project_delete" configurationId="tests" />
+    <history-entry file="test_add_media1 - 2016.09.19 at 20h 04m 25s.xml">
+      <configuration name="test_add_media1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_stingray_project_create_negative_empty_appID - 2016.07.16 at 16h 00m 50s.xml">
-      <configuration name="Nosetest test_stingray_project_create_negative_empty_appID" configurationId="tests" />
+    <history-entry file="test_add_media1 - 2016.09.20 at 11h 31m 30s.xml">
+      <configuration name="test_add_media1" configurationId="tests" />
     </history-entry>
-    <history-entry file="Nosetest_test_stingray_project_create_negative_empty_name - 2016.07.16 at 15h 43m 09s.xml">
-      <configuration name="Nosetest test_stingray_project_create_negative_empty_name" configurationId="tests" />
+    <history-entry file="test_add_media1 - 2016.09.20 at 11h 33m 19s.xml">
+      <configuration name="test_add_media1" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_delete_all_projects - 2016.07.16 at 16h 24m 07s.xml">
-      <configuration name="test_delete_all_projects" configurationId="tests" />
+    <history-entry file="test_add_media1 - 2016.09.20 at 11h 33m 59s.xml">
+      <configuration name="test_add_media1" configurationId="tests" />
     </history-entry>
-    <history-entry file="test_delete_all_projects - 2016.07.16 at 16h 24m 30s.xml">
-      <configuration name="test_delete_all_projects" configurationId="tests" />
+    <history-entry file="test_add_media1 - 2016.09.20 at 11h 49m 34s.xml">
+      <configuration name="test_add_media1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="test_add_media1 - 2016.09.20 at 11h 50m 12s.xml">
+      <configuration name="test_add_media1" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25184405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.5021075" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3690476" sideWeight="0.49789253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29978356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38311687" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -665,113 +771,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="65" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/fixture/app.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="83" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test_mheg_project_create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nose_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_file.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_mheg_project_create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
           <folding>
-            <element signature="e#25#76#0" expanded="true" />
+            <element signature="e#25#55#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
-          <folding>
-            <element signature="e#25#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nose_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_file.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -782,13 +803,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_mheg_project_create.py">
+    <entry file="file://$PROJECT_DIR$/test/test_project_mheg_add.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="e#25#76#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,7 +814,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="e#25#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -804,16 +824,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#55#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_mheg_project_create.py">
+    <entry file="file://$PROJECT_DIR$/test/test_project_mheg_add.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#76#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,20 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/contextlib.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -926,20 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="485" column="0" selection-start-line="485" selection-start-column="0" selection-end-line="485" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_file.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_project_edit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -972,89 +964,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/alert.py">
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/app.py">
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="199">
+          <caret line="460" column="0" selection-start-line="460" selection-start-column="0" selection-end-line="460" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_project_mheg_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_project_edit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_project_delete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/alert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nose_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_mheg_project_create.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="137" />
-          <folding>
-            <element signature="e#25#76#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/file_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/image_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/string_util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/wrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
           <folding>
-            <element signature="e#25#36#0" expanded="true" />
+            <element signature="e#25#55#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/project_create.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2720">
-          <caret line="160" column="21" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/project.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_project_delete.py">
+    <entry file="file://$PROJECT_DIR$/data/project.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_file.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/media.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nose_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
-            <element signature="e#30#48#0" expanded="true" />
+            <element signature="e#25#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_stingray_project_create.py">
+    <entry file="file://$PROJECT_DIR$/generator/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="63" column="69" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="69" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/alert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="68" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_project_stingray_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#25#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_media_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="e#24#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/media_positive_mod.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/media_positive.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

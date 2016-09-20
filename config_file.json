@@ -5,7 +5,18 @@
     "password": "1"
   },
 
-  "other": {
-    "browser": "firefox"
+  "db": {
+    "host": "10.130.8.159",
+    "port": "5432",
+    "name": "publisher",
+    "user": "publisher",
+    "password": "BUAbOta2"
+  },
+
+  "ui": {
+    "browser": "firefox",
+    "check_ui": "True",
+    "width": "1280",
+    "height": "1024"
   }
 }

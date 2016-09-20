@@ -1,0 +1,52 @@
+[
+  {
+    "width": 77,
+    "id": null,
+    "name": "Pos_4yxg1JdwZHVWw43",
+    "file_path": "..\\data\\media\\media_positive\\Pos_4yxg1JdwZHVWw43.JPG",
+    "progressive": false,
+    "file_type": "JPG",
+    "py/object": "model.media.Media",
+    "height": 55
+  },
+  {
+    "width": 42,
+    "id": null,
+    "name": "Pos_N3DFtrIyKOSNKDfNUsYMmtBP",
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive/Pos_N3DFtrIyKOSNKDfNUsYMmtBP.JPEG",
+    "progressive": false,
+    "file_type": "JPEG",
+    "py/object": "model.media.Media",
+    "height": 14
+  },
+  {
+    "width": 85,
+    "id": null,
+    "name": "Pos_Zn55qFQFo9okRtprjmfIs2suyYPcCEWE9B1wpXgXk1",
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive/Pos_Zn55qFQFo9okRtprjmfIs2suyYPcCEWE9B1wpXgXk1.PNG",
+    "progressive": false,
+    "file_type": "PNG",
+    "py/object": "model.media.Media",
+    "height": 12
+  },
+  {
+    "width": 73,
+    "id": null,
+    "name": "Pos_asWUN5jzUMI80b9lWk6AjpyhvRB8ja9fvchM05FE",
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive/Pos_asWUN5jzUMI80b9lWk6AjpyhvRB8ja9fvchM05FE.JPG",
+    "progressive": false,
+    "file_type": "JPG",
+    "py/object": "model.media.Media",
+    "height": 98
+  },
+  {
+    "width": 33,
+    "id": null,
+    "name": "Pos_gfMmR14wIFuXf243lrPYaAwnPj5W9ohesr",
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_positive/Pos_gfMmR14wIFuXf243lrPYaAwnPj5W9ohesr.PNG",
+    "progressive": false,
+    "file_type": "PNG",
+    "py/object": "model.media.Media",
+    "height": 21
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Type_Ybh",
+    "width": 100,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 100,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_negative_file_type/Type_Ybh.TIFF",
+    "file_type": "TIFF"
+  },
+  {
+    "name": "Type_syQolpzGi9keZlkFXL3JS",
+    "width": 100,
+    "py/object": "model.media.Media",
+    "id": null,
+    "progressive": false,
+    "height": 100,
+    "file_path": "/home/kirill/nose_dms_python3/data/media/media_negative_file_type/Type_syQolpzGi9keZlkFXL3JS.TIFF",
+    "file_type": "TIFF"
+  }
+]
